@@ -6,5 +6,5 @@ def clonar(url):
     guarda=open("Cuarentena.html", "wb")
     guarda.write(datos.content)
     return "Página clonada..."
-datos=clonar("https://cuarentenaa.es/")
+datos=clonar("https://linkdelapagina")
 print(datos)
